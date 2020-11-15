@@ -13,6 +13,9 @@
     <div style="background: black; color: aliceblue; padding: 16px;">
       <h3> NavBar </h3>
       <p>Now is <%= Time.now %><p>
+      <%= link_to "Know more about us", about_path %>
+      <%= link_to "Meet our team", contact_path %>
+      <%= link_to "Back to home", root_path %>
     </div>
     <%= yield %>
   </body>
